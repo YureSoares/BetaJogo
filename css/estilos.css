@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    margin:10px 0px;
+}
+#caixaBlocos {
+    height: 200px;
+    border: 1px solid black;
+    width:100%;
+    background-color: white;
+}
+.boxBoneco {
+    height: 200px;
+    background-image: url("/img/parado.gif");
+    background-repeat: no-repeat;
+    width: 150px;
+    position: relative;
+    top:40%;
+    left: 100px;
+    float:left;
+    z-index: 100;
+
+}
+.novoBloco {
+    position:absolute;
+    display: inline-block;
+}
